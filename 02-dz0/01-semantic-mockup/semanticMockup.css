@@ -1,0 +1,93 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+body {
+    width: 100vw;
+height: 100vh;
+font-family: 'Trebuchet MS','Gill Sans', Helvetica, 'Gill Sans MT', sans-serif;
+}
+
+header {
+    width: 100vw;
+height: 20vh;
+text-align: center;
+font-size: 6vh;
+}
+
+h1 {
+    width: 100vw;
+height: 10vh;
+background-color: rgb(190, 37, 90);
+padding-top: 2vh;
+padding-bottom: 2vh;
+font-size: inherit;
+color: whitesmoke;
+}
+
+nav {
+    width: 100vw;
+height: 10vh;
+background-color: rgb(187, 90, 130);
+padding-top: 3vh;
+padding-bottom: 2vh;
+font-size: 0.60em;
+}
+
+a {
+    color: whitesmoke;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+main {
+    width: 100vw;
+height: 70vh;
+background-color: rgb(231, 193, 212);
+padding: 2vh 2vw 2vh 2vw;
+color: whitesmoke;
+}
+
+article {
+    width: 95vw;
+height: 32vh;
+background-color: rgb(175, 149, 161);
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1vh;
+font-size: 5vh;
+}
+
+h2 {
+margin-left: 1.5vw;
+padding-top: 7vh;
+padding-bottom: 2vh;
+font-size: 0.65em;
+}
+
+ul {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    font-size: 0.55em;
+
+}
+
+ol {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    font-size: 0.55em;
+
+}
+
+footer {
+    width: 100vw;
+height: 10vh;
+background-color: rgb(148, 102, 123);
+text-align: center;
+font-size: 4vh;
+padding-top: 2vh;
+padding-bottom: 2vh;
+color: whitesmoke;
+}
+
