@@ -1,0 +1,9 @@
+.page {
+    background: var(--white);
+    width: 100%;
+}
+
+.page__block {
+    margin-left: auto;
+    margin-right: auto;
+}
