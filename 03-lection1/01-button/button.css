@@ -1,1 +1,89 @@
 /* Стилизация кнопки */
+.button-set {
+    text-align: justify;
+  
+}
+
+.button {
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.button__primary {
+    background-color: var(--blue-2);
+    color: var(--white);
+    border-style: none;
+}
+
+.button__primary:hover {
+    background-color: var(--blue-3);
+    cursor: pointer;
+    transition: background 200ms ease-in-out 100ms;
+}
+
+.button__primary:disabled {
+    background-color: var(--blue-4);
+    color: var(--pale-blkberry);
+    cursor: not-allowed;
+}
+
+.button__primary:active {
+    background-color: var(--pink);
+}
+
+.button__secondary {
+    background-color: var(--purple);
+    color: var(--white);
+    border-style: none;
+}
+
+.button__secondary:hover {
+    background-color: var(--purple-2);
+    cursor: pointer;
+    transition: background 200ms ease-in-out 100ms;
+}
+
+.button__secondary:disabled {
+    background-color: var(--serene);
+    color: var(--light-serene);
+    cursor: not-allowed;
+}
+
+.button__secondary:active {
+    background-color: var(--pink);
+}
+
+.button__alternate {
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+}
+
+.button__alternate:hover {
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--black);
+    cursor: pointer;
+    transition: background 200ms ease-in-out 100ms;
+}
+
+.button__alternate:disabled {
+    color: var(--grey-5);
+    border: 1px solid var(--grey-6);
+    cursor: not-allowed;
+}
+
+.button__alternate:active {
+    background-color: var(--pink);
+}
