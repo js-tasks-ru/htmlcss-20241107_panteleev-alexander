@@ -1,17 +1,10 @@
 .header {
     background: var(--white);
-    height: 237px;
     padding-top: 96px;
+    padding-bottom: 77px;
 }
 
-.header__container {
-    max-width: 1120px;
-    margin: 0 auto;
-}
-
-.header-title {
-    width: 670px;
-    height: 64px;
+.header__title {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     font-weight: 500;

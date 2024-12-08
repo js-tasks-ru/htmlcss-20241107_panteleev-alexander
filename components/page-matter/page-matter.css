@@ -1,14 +1,5 @@
 .page-matter {
     background: var(--light-grey);
-    height: 1036px;
-    gap: 0px;
-    opacity: 0px;
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
-
-}
-
-.page-matter__container {
-    max-width: 1120px;
-    margin: 0 auto;
 }
