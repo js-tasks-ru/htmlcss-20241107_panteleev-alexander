@@ -1,4 +1,16 @@
-@import '../fonts/fonts.css';
+@import url("destyle.css");
+
+@import url("../fonts/fonts.css");
+
+@import url("../../components/page/page.css");
+
+@import url("../../components/container/container.css");
+
+@import url("../../components/header/header.css");
+
+@import url("../../components/page-matter/page-matter.css");
+
+@import url("../../components/footer/footer.css");
 
 :root {
     --white: #ffffff;
@@ -11,6 +23,8 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --light-grey: #F9FAFC;
+
 
     --error: var(--red);
     --success: var(--blue);
@@ -19,6 +33,7 @@
     --secondary: var(--purple);
 }
 
-* {
+/* {
     font-family: 'Roboto', sans-serif;
-}
+} */
+
