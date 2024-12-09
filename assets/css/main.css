@@ -19,6 +19,10 @@
     --secondary: var(--purple);
 }
 
-* {
+
+*,
+::before,
+::after {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
