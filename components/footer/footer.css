@@ -2,6 +2,7 @@
     background: var(--white);
     padding-top: 72px;
     padding-bottom: 136px;
+    flex-grow: 1;
 }
 
 .footer__title {
@@ -10,7 +11,7 @@
     font-size: 38px;
     font-weight: 500;
     line-height: 48px;
-    text-align: left;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-bottom: 32px;
@@ -28,7 +29,6 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--black);
-    margin-bottom: 136px;
     margin-left: auto;
     margin-right: auto;
 }

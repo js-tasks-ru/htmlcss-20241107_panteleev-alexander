@@ -2,4 +2,5 @@
     background: var(--light-grey);
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
+    flex-grow: 1;
 }

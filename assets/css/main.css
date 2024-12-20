@@ -10,6 +10,12 @@
 
 @import url("../../components/page-matter/page-matter.css");
 
+@import url("../../components/page-matter/page-matter-flex.css");
+
+@import url("../../components/mmblock/mmblock.css");
+
+@import url("../../components/histogram/histogram.css");
+
 @import url("../../components/footer/footer.css");
 
 :root {

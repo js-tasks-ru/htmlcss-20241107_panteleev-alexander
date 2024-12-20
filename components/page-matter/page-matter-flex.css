@@ -1,0 +1,10 @@
+.page-matter-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    padding-top: 68px;
+    padding-bottom: 204px;
+
+}
