@@ -4,6 +4,8 @@
     border-radius: 12px;
     background: var(--white);
     padding-bottom: 30px;
+    padding-left: 26px;
+    padding-right: 26px;
     display: flex;
     flex-direction: column-reverse;
     row-gap: 75px;
