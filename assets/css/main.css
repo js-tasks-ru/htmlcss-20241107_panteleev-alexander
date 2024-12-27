@@ -10,11 +10,18 @@
 
 @import url("../../components/page-matter/page-matter.css");
 
+@import url("../../components/page-matter/page-matter-flex.css");
+
+@import url("../../components/mmblock/mmblock.css");
+
+@import url("../../components/histogram/histogram.css");
+
 @import url("../../components/footer/footer.css");
 
 :root {
     --white: #ffffff;
     --black: #212429;
+    --sh-black: #2124290D;
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-2:#5028C6;
